@@ -1,0 +1,17 @@
+{
+  "policy_path": "/home/unitree/isaac_policy/model.pt",
+  "has_obs_normalization": false,
+  "has_action_normalization": false,
+  "tested_input_sizes": [
+    43,
+    235,
+    235
+  ],
+  "control_frequency": 500,
+  "action_filter": 0.8,
+  "safety_limits": {
+    "max_joint_velocity": 20.0,
+    "max_joint_torque": 33.5,
+    "max_joint_position": 1.0
+  }
+}
