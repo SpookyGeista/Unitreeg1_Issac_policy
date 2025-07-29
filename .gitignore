@@ -12,6 +12,7 @@ venv.bak/
 
 # Conda
 .conda/
+miniconda3/
 
 # PyTorch
 *.pt
@@ -31,3 +32,42 @@ Thumbs.db
 # Temporäre Dateien
 *.tmp
 *.temp
+
+# Große Workspaces und SDKs
+fast_lio_ws/
+ws_realsense/
+ws_g1_clean/
+ws_livox/
+Livox-SDK2/
+unitree_sdk2-main/
+
+# Installer und große Dateien
+miniconda_installer.sh
+*.sh
+
+# Cache und temporäre Verzeichnisse
+.cache/
+.config/
+.local/
+.mozilla/
+.nx/
+.qt/
+.ros/
+.rviz/
+.rviz2/
+
+# Desktop und Dokumente
+Desktop/
+Documents/
+Downloads/
+Pictures/
+
+# Andere große Verzeichnisse
+cyclonedds_ws/
+test/
+tmp_*
+frames.*
+
+# Git Submodules (werden separat verwaltet)
+# cyclonedds/
+# unitree_sdk2_python/
